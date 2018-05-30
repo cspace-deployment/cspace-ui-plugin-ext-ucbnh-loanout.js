@@ -236,6 +236,22 @@ export default (configContext) => {
           },
         },
       },
+      loanoutItems: {
+        [config]: {
+          messages: defineMessages({
+            name: {
+              id: 'field.loansout_naturalhistory.loanoutItems.name',
+              defaultMessage: 'Accession numbers',
+            },
+          }),
+          view: {
+            type: TextInput,
+            props: {
+              multiline: true,
+            },
+          },
+        },
+      },
       objectGroupList: {
         [config]: {
           view: {
